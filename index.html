@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="mn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Лаборатори 06 — Зургийн цомог портал</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com/">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <input type="checkbox" id="theme-toggle" class="hidden-check" aria-label="Бараан горим">
+
+  <div class="page">
+  <header id="top" class="page-header">
+    <div class="header-top">
+      <p class="header-subtitle">ВЕБ ЗОХИОМЖ · ЛАБОРАТОРИ 06</p>
+      <label for="theme-toggle" class="theme-label">Бараан горим</label>
+    </div>
+    <h1 class="page-title">Зургийн цомог портал</h1>
+
+    <nav class="navigation">
+      <a href="#gallery">Галерей</a>
+      <a href="#media">Медиа</a>
+      <a href="#registration">Анкет бөглөх</a>
+      <a href="#interests">Миний сонирхол</a>
+      <a href="#grades">Миний дүн</a>
+    </nav>
+  </header>
+
+  <div class="main-content single-content">
+    <section id="gallery" class="card" aria-labelledby="gallery-title">
+      <h2 id="gallery-title" class="section-title">Зургийн галерей</h2>
+      <ul class="gallery">
+        <li style="--i: 0">
+          <div class="flip-card">
+            <input type="checkbox" id="flip-1" class="hidden-check flip-check" aria-label="Зураг 1-ийг эргүүлэх">
+            <div class="flip-inner" id="photo-1">
+              <div class="flip-face flip-front">
+                <img src="https://picsum.photos/seed/lab6photo1/800/600" alt="Цомгийн 1-р жишээ зураг" width="800" height="600" loading="lazy">
+                <span class="flip-caption">Зураг 1</span>
+              </div>
+              <div class="flip-face flip-back">
+                <h3>Зураг 1</h3>
+              </div>
+            </div>
+            <label for="flip-1" class="flip-btn"><span class="front-text">Эргүүлэх</span><span class="back-text">Буцаах</span></label>
+          </div>
+        </li>
+        <li style="--i: 1">
+          <div class="flip-card">
+            <input type="checkbox" id="flip-2" class="hidden-check flip-check" aria-label="Зураг 2-ийг эргүүлэх">
+            <div class="flip-inner" id="photo-2">
+              <div class="flip-face flip-front">
+                <img src="https://picsum.photos/seed/lab6photo2/800/600" alt="Цомгийн 2-р жишээ зураг" width="800" height="600" loading="lazy">
+                <span class="flip-caption">Зураг 2</span>
+              </div>
+              <div class="flip-face flip-back">
+                <h3>Зураг 2</h3>
+              </div>
+            </div>
+            <label for="flip-2" class="flip-btn"><span class="front-text">Эргүүлэх</span><span class="back-text">Буцаах</span></label>
+          </div>
+        </li>
+        <li style="--i: 2">
+          <div class="flip-card">
+            <input type="checkbox" id="flip-3" class="hidden-check flip-check" aria-label="Зураг 3-ийг эргүүлэх">
+            <div class="flip-inner" id="photo-3">
+              <div class="flip-face flip-front">
+                <img src="https://picsum.photos/seed/lab6photo3/800/600" alt="Цомгийн 3-р жишээ зураг" width="800" height="600" loading="lazy">
+                <span class="flip-caption">Зураг 3</span>
+              </div>
+              <div class="flip-face flip-back">
+                <h3>Зураг 3</h3>
+              </div>
+            </div>
+            <label for="flip-3" class="flip-btn"><span class="front-text">Эргүүлэх</span><span class="back-text">Буцаах</span></label>
+          </div>
+        </li>
+        <li style="--i: 3">
+          <div class="flip-card">
+            <input type="checkbox" id="flip-4" class="hidden-check flip-check" aria-label="Зураг 4-ийг эргүүлэх">
+            <div class="flip-inner" id="photo-4">
+              <div class="flip-face flip-front">
+                <img src="https://picsum.photos/seed/lab6photo4/800/600" alt="Цомгийн 4-р жишээ зураг" width="800" height="600" loading="lazy">
+                <span class="flip-caption">Зураг 4</span>
+              </div>
+              <div class="flip-face flip-back">
+                <h3>Зураг 4</h3>
+              </div>
+            </div>
+            <label for="flip-4" class="flip-btn"><span class="front-text">Эргүүлэх</span><span class="back-text">Буцаах</span></label>
+          </div>
+        </li>
+        <li style="--i: 4">
+          <div class="flip-card">
+            <input type="checkbox" id="flip-5" class="hidden-check flip-check" aria-label="Зураг 5-ийг эргүүлэх">
+            <div class="flip-inner" id="photo-5">
+              <div class="flip-face flip-front">
+                <img src="https://picsum.photos/seed/lab6photo5/800/600" alt="Цомгийн 5-р жишээ зураг" width="800" height="600" loading="lazy">
+                <span class="flip-caption">Зураг 5</span>
+              </div>
+              <div class="flip-face flip-back">
+                <h3>Зураг 5</h3>
+              </div>
+            </div>
+            <label for="flip-5" class="flip-btn"><span class="front-text">Эргүүлэх</span><span class="back-text">Буцаах</span></label>
+          </div>
+        </li>
+        <li style="--i: 5">
+          <div class="flip-card">
+            <input type="checkbox" id="flip-6" class="hidden-check flip-check" aria-label="Зураг 6-ийг эргүүлэх">
+            <div class="flip-inner" id="photo-6">
+              <div class="flip-face flip-front">
+                <img src="https://picsum.photos/seed/lab6photo6/800/600" alt="Цомгийн 6-р жишээ зураг" width="800" height="600" loading="lazy">
+                <span class="flip-caption">Зураг 6</span>
+              </div>
+              <div class="flip-face flip-back">
+                <h3>Зураг 6</h3>
+              </div>
+            </div>
+            <label for="flip-6" class="flip-btn"><span class="front-text">Эргүүлэх</span><span class="back-text">Буцаах</span></label>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <section id="media" class="card" aria-labelledby="media-title">
+      <h2 id="media-title" class="section-title">Медиа</h2>
+
+      <div class="media-grid">
+        <figure>
+          <video controls preload="metadata" playsinline width="640" height="360">
+            <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm" type="video/webm">
+            <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4" type="video/mp4">
+            <track kind="subtitles" src="video/clip.mn.vtt" srclang="mn" label="Монгол" default>
+            Таны хөтөч video элементийг дэмжихгүй байна.
+            <a href="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4">Бичлэгийг татаж авах</a>.
+          </video>
+        </figure>
+
+        <figure>
+          <div class="map-box">
+            <iframe
+              title="Улаанбаатар хотын байршлын OpenStreetMap газрын зураг"
+              src="https://www.openstreetmap.org/export/embed.html?bbox=106.85%2C47.89%2C106.99%2C47.95&amp;layer=mapnik"
+              loading="lazy"
+              referrerpolicy="no-referrer"
+              sandbox="allow-scripts allow-same-origin"></iframe>
+          </div>
+        </figure>
+      </div>
+
+      <h3 class="section-title">Камер</h3>
+      <div class="svg-box">
+        <svg viewBox="0 0 64 64" role="img" aria-labelledby="svg-title svg-desc" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+          <title id="svg-title">Камерын дүрс</title>
+          <desc id="svg-desc">Линзтэй зургийн аппаратын энгийн дүрс.</desc>
+          <path class="draw" d="M8 20h10l4-6h20l4 6h10v32H8z"/>
+          <circle class="draw" cx="32" cy="35" r="10"/>
+        </svg>
+      </div>
+    </section>
+  </div>
+
+  <main class="main-content">
+    <article id="registration" class="card form-card">
+      <span class="badge">Лаборатори 06</span>
+
+      <section>
+        <h2 id="form-title" class="section-title">
+          Хэрэглэгчийн анкет бөглөх
+        </h2>
+
+        <form>
+          <fieldset class="form-group">
+            <legend>01 · Хувийн мэдээлэл</legend>
+
+            <div class="grid">
+              <div class="form-field">
+                <label for="fullname" class="form-label">
+                  Овог нэр *
+                </label>
+                <input class="form-input" type="text" id="fullname" name="fullname" placeholder="Овог нэр" required minlength="2">
+              </div>
+
+              <div class="form-field">
+                <label for="email" class="form-label">
+                  Цахим хаяг *
+                </label>
+                <input class="form-input" type="email" id="email" name="email" placeholder="example@domain.com" required>
+              </div>
+
+              <div class="form-field">
+                <label for="password" class="form-label">
+                  Нууц үг *
+                </label>
+                <input class="form-input" type="password" id="password" name="password" required minlength="6">
+              </div>
+
+              <div class="form-field">
+                <label for="phone" class="form-label">
+                  Утасны дугаар *
+                </label>
+                <input class="form-input" type="tel" id="phone" name="phone" placeholder="88112233" required>
+              </div>
+
+              <div class="form-field">
+                <label for="dob" class="form-label">
+                  Төрсөн огноо *
+                </label>
+                <input class="form-input" type="date" id="dob" name="dob" required>
+              </div>
+
+              <fieldset class="subgroup">
+                <legend>Хүйс *</legend>
+
+                <div class="choices">
+                  <span class="choice">
+                    <input type="radio" id="male" name="gender" value="male" required>
+                    <label for="male">Эрэгтэй</label>
+                  </span>
+
+                  <span class="choice">
+                    <input type="radio" id="female" name="gender" value="female" required>
+                    <label for="female">Эмэгтэй</label>
+                  </span>
+                </div>
+              </fieldset>
+            </div>
+          </fieldset>
+
+          <fieldset class="form-group">
+            <legend>02 · Боловсрол ба сонирхол</legend>
+
+            <div class="grid">
+              <div class="form-field">
+                <label for="degree" class="form-label">
+                  Суралцаж буй түвшин *
+                </label>
+                <select class="form-input" id="degree" name="degree" required>
+                  <option value="">— Сонгоно уу —</option>
+                  <option value="bachelor">Бакалавр</option>
+                  <option value="master">Магистр</option>
+                  <option value="doctor">Докторант</option>
+                </select>
+              </div>
+
+              <div class="form-field">
+                <label for="avatar" class="form-label">
+                  Профайл зураг
+                </label>
+                <input class="form-input" type="file" id="avatar" name="avatar" accept="image/*">
+              </div>
+
+              <fieldset class="subgroup wide">
+                <legend>Эзэмшсэн ур чадвар</legend>
+
+                <div class="choices">
+                  <span class="choice">
+                    <input type="checkbox" id="html" name="skills" value="HTML/CSS">
+                    <label for="html">HTML5 / CSS3</label>
+                  </span>
+
+                  <span class="choice">
+                    <input type="checkbox" id="js" name="skills" value="JavaScript">
+                    <label for="js">JavaScript</label>
+                  </span>
+                </div>
+              </fieldset>
+
+              <div class="form-field wide">
+                <label for="bio" class="form-label">
+                  Товч танилцуулга / Өөрийн тухай
+                </label>
+                <textarea class="form-input" id="bio" name="bio" rows="3" placeholder="Өөрийн сонирхол, суралцах зорилгоо бичнэ үү..."></textarea>
+              </div>
+            </div>
+          </fieldset>
+          <div class="actions">
+            <button type="button" class="btn btn-primary" disabled>
+              Анкет илгээх
+            </button>
+            <button type="reset" class="btn btn-secondary">
+              Дахин эхлүүлэх
+            </button>
+          </div>
+        </form>
+      </section>
+    </article>
+
+    <section
+      id="interests"
+      class="card"
+    >
+      <h2 id="interests-title" class="section-title">
+        Миний сонирхол
+      </h2>
+
+      <ul class="interest-list">
+        <li>Веб хөгжүүлэлт</li>
+        <li>Фото зураг авах</li>
+        <li>Кино үзэх</li>
+      </ul>
+    </section>
+
+    <section
+      id="grades"
+      class="card"
+    >
+      <h2 id="grades-title" class="section-title">Миний дүн</h2>
+
+      <table class="grades-table">
+        <thead>
+          <tr>
+            <th scope="col">Хичээл</th>
+            <th scope="col">Дүн</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Биеийн тамир</th>
+            <td>95</td>
+          </tr>
+          <tr>
+            <th scope="row">Мэдээллийн сан</th>
+            <td>88</td>
+          </tr>
+          <tr>
+            <th scope="row">Алгоритм</th>
+            <td>92</td>
+          </tr>
+          <tr>
+            <th scope="row">Түүх</th>
+            <td>98</td>
+          </tr>
+          <tr>
+            <th scope="row">Харилцааны англи хэл</th>
+            <td>93</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <footer class="page-footer">
+    <p>© 2026 · Веб зохиомж · Лаборатори 06</p>
+  </footer>
+  </div>
+</body>
+</html>
